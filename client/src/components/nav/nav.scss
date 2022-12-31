@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    background-color: white;
+    max-height: 100px;
+
+    .logo{
+        padding: 10px;
+        font-size: 40px;
+        text-decoration: none;  
+        font-weight: 700;
+        color: black;
+
+        &:hover{
+            color: #003049;
+        }
+    }
+    .links{
+        padding: 10px;      
+        .link{
+            padding: 10px;
+            color: black;
+            transition: ease-in-out all;
+
+            &:hover{
+                color: #003049;
+                transition: ease-in-out all;
+            }
+            
+        }
+    }
+}

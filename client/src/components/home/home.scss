@@ -1,0 +1,38 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+
+    .welcome{
+        h1{
+            font-size: 100px;
+            color: white;
+            margin: 0;
+        }
+        h2{
+            font-size: 60px;
+            margin: 0;
+            opacity: 50%;
+        }
+        .contact-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 30px;
+            font-weight: 500;
+            color: black;
+            margin-top: 30px;
+            width: 200px;
+            height: 50px;
+            background-color: white;
+            transition: ease .5s all;
+
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
